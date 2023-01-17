@@ -1,4 +1,4 @@
-# [TÍTULO DO PROJETO]
+# Sistema Web de Agendas
 
 <p align="center">
   <img alt="Preview" src="public/images/preview.png" width="100%">
@@ -45,7 +45,7 @@ O sistema de agendas é um sistema CRUD que permite a adição, exclusão, ediç
 
 ## 📂 Acesso ao projeto
 
-Você pode acessar o projeto [baixando-o]() e iniciando-o na IDE de sua preferência, onde quando executado irá abrir no navegador o projeto funcionando
+Você pode acessar o projeto [baixando-o](https://github.com/gustavotht21/sistema-agendas-php/archive/refs/heads/main.zip) e iniciando-o na IDE de sua preferência, onde quando executado irá abrir no navegador o projeto funcionando
 
 ## 👤 Autor
 
