@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Geometry';
+    src: url("../../public/fonts/geometry-soft-pro/Geometry_Soft_Pro-Bold_N.otf");
+}
+
+nav > div > div > ul > li {
+    border-radius: 1em;
+    padding: 0.25em;
+}
+
+nav > div > div > ul > li:hover {
+    background-color: #0369a1;
+    transition-duration: 1s;
+}
+
+body > #anima {
+    animation: myAnimation 1s;
+}
+
+body {
+    font-family: 'Geometry';
+}
+
+@keyframes myAnimation  {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+
+
