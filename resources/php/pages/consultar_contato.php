@@ -4,7 +4,7 @@
             <h4 class="mt-3">Consultar um contato</h4>
             <div class="bg-black w-50 mb-3" style="height: 2px;"></div>
 
-            <?php require_once 'resources/php/action/mensagens.php'?>
+            <?php require_once './resources/php/action/mensagens.php'?>
 
             <div class="form-control mb-3">
                 <label class="form-label" for="consulta">Insira alguma informação para buscar:</label>

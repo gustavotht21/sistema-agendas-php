@@ -4,7 +4,7 @@
         <h4 class="mt-3">Cadastrar novo contato</h4>
         <div class="bg-black w-50 mb-3" style="height: 2px;"></div>
 
-        <?php require_once 'resources/php/action/mensagens.php'?>
+        <?php require_once './resources/php/action/mensagens.php'?>
 
         <div class="form-control mb-3">
             <label class="form-label" for="email">Insira o email do contato:</label>
@@ -46,7 +46,7 @@
         <div class="form-control mb-3">
             <label class="form-label" for="pais">Selecione o país do contato:</label>
             <select class="form-select mb-2" aria-label="Default select example" id="pais" name="pais" required>
-                <?php require_once 'resources/php/action/select_pais.php'?>
+                <?php require_once './resources/php/action/select_pais.php'?>
             </select>
         </div>
 

@@ -1,5 +1,5 @@
 <?php
-require_once 'resources/php/action/connection.php';
+require_once './resources/php/action/connection.php';
 
 $default_foto = glob("../../../public/contacts/{$_POST['emailOriginal']}.*");
 $default_foto = explode("/", "$default_foto[0]");

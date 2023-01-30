@@ -1,5 +1,5 @@
 <?php
-require_once 'resources/php/action/connection.php';
+require_once './resources/php/action/connection.php';
 
 $email = $_POST['email'];
 

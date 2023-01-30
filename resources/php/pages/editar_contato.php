@@ -9,7 +9,7 @@
         ?>
         <form action="resources/php/action/edit_contact.php" method="post" enctype="multipart/form-data">
 
-            <?php require_once 'resources/php/action/mensagens.php'?>
+            <?php require_once './resources/php/action/mensagens.php'?>
 
             <div class="form-control mb-3">
                 <label class="form-label" for="email">Email do contato:</label>
@@ -53,7 +53,7 @@
                 <label class="form-label" for="pais">País do contato:</label>
                 <select class="form-select mb-2" aria-label="Default select example" id="pais" name="pais" required>
                     <option selected hidden value="<?=$resultSelect['pais']?>"><?=$resultSelect['pais']?></option>
-                    <?php require_once 'resources/php/action/select_pais.php'?>
+                    <?php require_once './resources/php/action/select_pais.php'?>
                 </select>
             </div>
 
@@ -82,12 +82,12 @@
         <h4 class="mt-3">Editar um contato</h4>
         <div class="bg-black w-50 mb-3" style="height: 2px;"></div>
 
-        <?php require_once 'resources/php/action/mensagens.php'?>
+        <?php require_once './resources/php/action/mensagens.php'?>
 
         <div class="form-control mb-3">
             <label class="form-label" for="email">Insira o email do contato a ser editado:</label>
             <select class="form-select mb-2" aria-label="Default select example" id="email" name="email" required>
-                <?php require_once 'resources/php/action/select_email.php'?>
+                <?php require_once './resources/php/action/select_email.php'?>
             </select>
         </div>
 
